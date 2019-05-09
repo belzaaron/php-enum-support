@@ -1,0 +1,34 @@
+{
+    "name": "belzaaron/php-enum-support",
+    "description": "Get some helpful support for enum-like classes in PHP.",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Aaron Belz",
+            "email": "belzaaron@gmail.com",
+            "homepage": "https://belzaaron.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/belzaaron/php-enum-support",
+    "keywords": ["PHP", "enums", "support", "enum"],
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BelzAaron\\EnumSupport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BelzAaron\\EnumSupport\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
